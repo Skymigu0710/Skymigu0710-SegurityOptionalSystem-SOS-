@@ -1,0 +1,9 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".", // Establece la raíz del proyecto
+    "paths": {
+      "@screens/*": ["src/screens/*"]
+    }
+  }
+}
